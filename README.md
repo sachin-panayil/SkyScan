@@ -1,6 +1,6 @@
 # SkyScan
 
-A web application app that tells you the weather!
+A web application that tells you the weather!
 
 **Created By:**
 
