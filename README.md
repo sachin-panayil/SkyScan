@@ -1,17 +1,20 @@
 # SkyScan
 
-An App that tells you the weather!
+A web application app that tells you the weather!
 
 **Created By:**
 
 **Sachin Panayil, Steve Roy, David Perez, Zhi Wei Wu, Kamran Sajid**
 
+# Presentation
+
+https://drive.google.com/file/d/1nIq8giT5OojkFIWAZf2V6TGZcL_eMqEX/view?usp=share_link
 
 # To Run
 
 **Windows:**
 
-First Step
+1.
 
 o Install Mongo from this link
 
@@ -24,7 +27,7 @@ o Follow this tutorial to properly install mongo
 ▪ Only follow up to 8:25
 
 
-Second Step
+2. 
 
 o Start MongoD by running the Mongod.exe program
 
@@ -56,17 +59,17 @@ o If you can’t run your server folder properly, do the following
 
 **MacOS:**
 
-First Step:
+1.
 
 - Open terminal and run these commands
 
 - xcode-select --install
 
-Second Step: Installing brew
+2.  (Installing brew)
 
 - /bin/bash -c "$(curl -fsSLhttps://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-Third Step: Installing Mongo
+3. (Installing Mongo)
 
 - brew tap mongodb/brew
 
@@ -74,19 +77,19 @@ Third Step: Installing Mongo
 
 - brew install mongodb-community@6.0
 
-Fourth Step: (Optional if error comes up when installing Mongo, run these
-
-commands and install mongo again)
+4. (Optional if error comes up when installing Mongo, run these commands and install mongo again)
 
 - rm -fr $(brew --repo homebrew/core)
 
 brew tap homebrew/core
 
-Fifth Step: Start up mongo before npm install and npm start on both folders
+5. 
+
+- Start up mongo before npm install and npm start on both folders
 
 - brew services start mongodb-community@6.0
 
-Sixth step:
+6. 
 
 - Start up App
 
@@ -97,7 +100,7 @@ Sixth step:
 - Run npm install and npm start on client folder
 
 
-Links for MacOS:
+**Troubleshooting:**
 
 https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
 
