@@ -1,0 +1,89 @@
+.HomeButton {
+  background-color: #e7e7e7;
+  color: black;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.HomeButton:hover {
+  background-color: #f0f0f0;
+}
+
+.Loading {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  margin: 200px auto 0 auto;
+}
+
+.LocationDetails {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.LocationDays {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  font-weight: bold;
+}
+
+.Today {
+  margin-top: 100px;
+}
+
+.TodayTime {
+  font-size: 50px;
+  color: beige;
+}
+
+.TodayTemp {
+  margin: 5px;
+}
+
+.TodayMinTemp {
+  font-size: 50px;
+  color: aqua;
+}
+
+.TodayMaxTemp {
+  font-size: 65px;
+  color: rgb(212, 65, 65);
+}
+
+.LocationDay {
+  font-size: 20px;
+}
+
+.DayTime {
+  color: beige;
+}
+
+.DayTemp {
+  margin: 5px;
+}
+
+.DayMinTemp {
+  font-size: 15px;
+  color: aqua;
+}
+
+.DayMaxTemp {
+  font-size: 22px;
+  color: rgb(212, 65, 65);
+}
+
+.NoData {
+  margin: 500px auto;
+  font-size: 30px;
+  color: white;
+}

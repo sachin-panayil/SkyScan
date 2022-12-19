@@ -1,0 +1,103 @@
+.Home {
+  margin-top: 150px;
+}
+
+.Header {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.Dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.DropdownHeader {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.DropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 10px;
+  z-index: 1;
+  border-radius: 5px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.Dropdown:hover .DropdownContent {
+  display: block;
+  cursor: pointer;
+}
+
+.DropdownItem {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.DeleteLocation {
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.AddLocation {
+  margin-top: 230px;
+}
+
+.AddLocationForm {
+  margin: 60px auto 0 auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 60%;
+}
+
+.AddLocationInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.AddLocationInput::-webkit-outer-spin-button,
+.AddLocationInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.AddLocationBtn {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.AddLocationBtn:hover {
+  background-color: #45a049;
+}
+
